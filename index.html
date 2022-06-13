@@ -1,0 +1,205 @@
+
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loki</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>la psiquiatra </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">un nuevo mundo </span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header  id="home">
+    <img class="w3-image" src="img/imagen 2 pag.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">y</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>como entender un psicopata</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>que sabemos de ellos
+          </h3>
+          <h5>como son realmente
+              <span class="w3-opacity">tal vez son lo que no creemos</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/imagen 5 pag.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>El concepto de psicopatía, a pesar de sus controversias en el contexto clínico, ha
+            resultado de enorme interés en el ámbito de la psicopatología criminal y forense al
+            mostrarse, tras la evidencia científica acumulada, como un factor predictor de
+            primera magnitud de la conducta transgresora de la normativa social y legal.
+            La alta tasa de reincidencia delictiva y la posibilidad que la personalidad
+            psicopática tiene de involucrarse en delitos violentos, despertó el interés de los
+            autores en la importancia que tiene que todo investigador sea capaz de detectar los
+            principales rasgos de este tipo de personalidad en los individuos con los que
+            interactúan, con el fin de adecuar su interacción a ellos y sacar el máximo
+            beneficio al interrogatorio y, en consecuencia, a la investigación criminal.
+            PALABRAS CLAVE: psicopatía, estrategias, interrogatorio, investigación
+            criminal</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/imagen persona 1.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>alex_164 <span class="w3-opacity w3-medium">May 3, 2022, 6:32 PM</span></h4>
+                <p>que miedo tener un psicopata como amigo o familiar</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>cosas interesantes de un psicopata</h3>
+          <h5>seran realmente peligrosos<span class="w3-opacity">Shhhhh</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/imagen 3 pag.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>que crees</strong></p>nace o se hace un psicopata
+          <p>Los correlatos neurofisiológicos de los rasgos que caracterizan a la psicopatía todavía se desconocen. Sin embargo, se han tratado de estudiar algunos de ellos asociados a ciertas características.
+            Aunque existen múltiples modelos, explicaremos brevemente el conocido modelo triárquico de la psicopatía. Este evalúa tres componentes fenotípicos distintos de la psicopatía asociados a dos vías etiológicas: Audacia, mezquindad y desinhibición.
+            La primera vía se encuentra relacionada con un deterioro de los mecanismos motivacionales primarios del cerebro (sistema defensivo), que incluyen las amígdalas (junto una reducción del volumen de materia gris en la región prefrontal lateral, medial y polos temporales), ínsula y estructuras afiliadas.
+            Una persona con psicopatía no nace y tampoco se hace, más bien, esto conlleva una mezcla de varios factores. Pues la psicopatía es multifacética, determinada por la interacción de la genética, ambiente, aprendizaje y experiencias de la persona.
+            Por otro lado, hay que tratar el estereotipado tópico hacia la figura del psicópata que se ha reflejado a lo largo del tiempo en medios sensacionalistas y en la empresa del cine.
+            La imaginería popular ha adjudicado una especie de delincuencia patológica sobre este concepto que, en la mayoría de las ocasiones, se aleja de la realidad.
+            En base a lo expuesto en esta nota, resaltamos la inmensidad de matices que existen en este tema y concluimos con un fragmento del artículo de Romero et al. (2015): “Ni los unos -psicópatas integrados- ni los otros -psicópatas criminales- son seres especiales, si bien hay que admitir que poseen unas particulares características de personalidad, emociones y conductas que los diferencian de otras personas”.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/imagen persona 2.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>steffania_R<span class="w3-opacity w3-medium">mayo 17, 2022, 8:30 PM</span></h4>
+                <p>yo creo que algunos si nacen asi,con esa enfermedad mental.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/imagen persona 3.jpeg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>psicolaga.10 <span class="w3-opacity w3-medium">diciembre 10, 2021, 09:35 A.M</span></h4>
+                <p>los psicopatas son incomprendidos</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/imagen 4 pag.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>louis_15<span class="w3-opacity w3-medium">noviembre 21, 2021, 12:18 PM</span></h4>
+                <p>a mi me dan miedo ese tipos de personas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBETE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
